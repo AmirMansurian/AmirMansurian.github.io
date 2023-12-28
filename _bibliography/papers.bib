@@ -9,6 +9,9 @@
   title={Multi-task Learning for Joint Re-identification, Team Affiliation, and Role Classification for Sports Visual Tracking},
   author={Mansourian*, Amir M and Somers*, Vladimir and De Vleeschouwer, Christophe and Kasaei, Shohreh},
   booktitle={Proceedings of the 6th International Workshop on Multimedia Content Analysis in Sports},
+  abstract{Effective tracking and re-identification of players is essential foranalyzing soccer videos. But, it is a challenging task due to the non-linear motion of players, the similarity in appearance of playersfrom the same team, and frequent occlusions. Therefore, the abilityto extract meaningful embeddings to represent players is crucialin developing an effective tracking and re-identification system.In this paper, a multi-purpose part-based person representationmethod, called PRTreID, is proposed that performs three tasks ofrole classification, team affiliation, and re-identification, simultane-ously. In contrast to available literature, a single network is trainedwith multi-task supervision to solve all three tasks, jointly. The pro-posed joint method is computationally efficient due to the sharedbackbone. Also, the multi-task learning leads to richer and morediscriminative representations, as demonstrated by both quanti-tative and qualitative results. To demonstrate the effectiveness ofPRTreID, it is integrated with a state-of-the-art tracking method,using a part-based post-processing module to handle long-termtracking. The proposed tracking method, outperforms all existingtracking methods on the challenging SoccerNet tracking dataset.},
+  code={https://github.com/AmirMansurian/bpbreid},
+  pdf={Part_Based_Tracking__ACM_MMSports2023_.pdf},
   pages={103--112},
   year={2023}
 }
@@ -18,8 +21,11 @@
   abbr={ArXiv},
   title={SoccerNet 2023 Challenges Results},
   author={Cioppa, Anthony and Giancola, Silvio and Somers, Vladimir and Magera, Floriane and Zhou, Xin and Mkhallati, Hassan and Deliege, Adrien and Held, Jan and Hinojosa, Carlos and Mansourian, Amir M and others},
+  abstract{The SoccerNet 2023 challenges were the third annual video understanding challenges organized bythe SoccerNet team. For this third edition, the challenges were composed of seven vision-based taskssplit into three main themes. The first theme, broadcast video understanding, is composed of threehigh-level tasks related to describing events occurring in the video broadcasts: (1) action spotting,focusing on retrieving all timestamps related to global actions in soccer, (2) ball action spotting,focusing on retrieving all timestamps related to the soccer ball change of state, and (3) dense videocaptioning, focusing on describing the broadcast with natural language and anchored timestamps.The second theme, field understanding, relates to the single task of (4) camera calibration, focus-ing on retrieving the intrinsic and extrinsic camera parameters from images. The third and lasttheme, player understanding, is composed of three low-level tasks related to extracting informa-tion about the players: (5) re-identification, focusing on retrieving the same players across multipleviews, (6) multiple object tracking, focusing on tracking players and the ball through unedited videostreams, and (7) jersey number recognition, focusing on recognizing the jersey number of players fromtracklets. Compared to the previous editions of the SoccerNet challenges, tasks (2-3-7) are novel,including new annotations and data, task (4) was enhanced with more data and annotations, andtask (6) now focuses on end-to-end approaches.},
   journal={arXiv preprint arXiv:2309.06006},
-  year={Preprints}
+  code={https://github.com/SoccerNet/},
+  pdf={SoccerNet.pdf},
+  year={2023}
 }
 
 @article{mansourian2023aicsd,
@@ -27,8 +33,11 @@
   abbr={ArXiv},
   title={AICSD: Adaptive Inter-Class Similarity Distillation for Semantic Segmentation},
   author={Mansourian, Amir M and Ahmadi, Rozhan and Kasaei, Shohreh},
+  abstract{In recent years, deep neural networks have achievedremarkable accuracy in computer vision tasks. With inferencetime being a crucial factor, particularly in dense predictiontasks such as semantic segmentation, knowledge distillation hasemerged as a successful technique for improving the accuracyof lightweight student networks. The existing methods oftenneglect the information in channels and among different classes.To overcome these limitations, this paper proposes a novelmethod called Inter-Class Similarity Distillation (ICSD) for thepurpose of knowledge distillation. The proposed method transfershigh-order relations from the teacher network to the studentnetwork by independently computing intra-class distributionsfor each class from network outputs. This is followed bycalculating inter-class similarity matrices for distillation usingKL divergence between distributions of each pair of classes. Tofurther improve the effectiveness of the proposed method, anAdaptive Loss Weighting (ALW) training strategy is proposed.Unlike existing methods, the ALW strategy gradually reducesthe influence of the teacher network towards the end of trainingprocess to account for errors in teacher’s predictions. Extensiveexperiments conducted on two well-known datasets for semanticsegmentation, Cityscapes and Pascal VOC 2012, validate theeffectiveness of the proposed method in terms of mIoU andpixel accuracy. The proposed method outperforms most ofexisting knowledge distillation methods as demonstrated by bothquantitative and qualitative evaluations.},
   journal={arXiv preprint arXiv:2308.04243},
-  year={Preprints}
+  code={https://github.com/AmirMansurian/AICSD},
+  pdf={AICSD.pdf},
+  year={2023}
 }
 
 
