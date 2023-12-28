@@ -9,18 +9,19 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Image processing Lab (IPL)</p>
+    <p>Sharif University of Technology</p>
+    <p>Tehran, Iran</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Master's student in the <a href='https://ce.sharif.edu/'>Computer Engineering Department</a> of the <a href='https://en.sharif.edu/'>Sharif University of Technology(SUT)</a>, where I serve as a Research Assistant at the <a href='http://ipl.ce.sharif.edu/'>Image Processing Lab</a> under the supervision of <a href='https://scholar.google.com/citations?user=mvx4PvgAAAAJ&hl=en'>Prof. Kasaei</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In the summer of 2022, I was a Research Intern at <a href='ispgroup.gitlab.io'>Image and Signal Processing Group</a>, <a href='https://uclouvain.be/en/index.html'>UCLouvain</a>, under the supervision of <a href='https://scholar.google.com/citations?user=xb3Zc3cAAAAJ&hl=en'>Prof. De Vleeschouwer</a>. Before joining SUT, I completed my Bachelor's in Computer Engineering at <a href='https://english.iut.ac.ir/'>Isfahan University of Technology (IUT)</a>. I was an undergraduate Research Assistant in the Computer Vision Lab under the supervision of <a href='https://scholar.google.com/citations?hl=en&user=mZGNr2QAAAAJ'>Dr. Karimi</a>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+My research addresses visual recognition tasks like Multi-Object Tracnd, Person Re-Identification, and Semantic Segmentation. I am mainly working on the Tracking and Segmentation of players in team sports videos, specifically in soccer videos. Besides, I am also interested in compacting deep networks and transferring knowledge through Knowledge Distillation. Furthermore, my research interests include Self-supervised Learning.
