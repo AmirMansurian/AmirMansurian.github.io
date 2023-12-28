@@ -42,16 +42,16 @@
         - Description 2. Working on NLP techniques tailored for the linguistic variations in the Kurdish language family, providing linguistic resources, multilingual models, and NLP pipelines to address essential tasks and facilitate cross-dialect communication within the Kurdish-speaking community.
 
     - title: Research Internship
-          institution: UCLouvain, Louvain la Neuve, Belgium
-          year: Summer 2022
-          description:
-            - Description. The development and implementation of a multi-object tracking solution exploiting CNN-based re-identification descriptors.
+      institution: UCLouvain, Louvain-la-Neuve, Belgium
+      year: Summer 2022
+      description:
+        - Description. The development and implementation of a multi-object tracking solution exploiting CNN-based re-identification descriptors.
             
     - title: Undergraduate Research Assistant
-          institution: Isfahan University of Technology, Isfahan, Iran
-          year: 2021
-          description:
-            - Description. The development on an open-source iris recognition system and making improvements in segmentation and feature encoding stages.
+      institution: Isfahan University of Technology, Isfahan, Iran
+      year: 2021
+      description:
+        - Description. The development on an open-source iris recognition system and making improvements in segmentation and feature encoding stages.
     
 
 - title: Open Source Projects
