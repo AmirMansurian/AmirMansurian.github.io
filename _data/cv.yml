@@ -15,83 +15,96 @@
       institution: Sharif University of Technology, Tehran, Iran
       year: 2021-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Thesis Title: Deep Multi-Object Tracking by Part-Based Re-Identification in Soccer Matches 
+
+
+    - title: B.Sc.
+      institution: Isfahan University of Technology, Isfahan, Iran
+      year: 2017-2021
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis Title: Biometric Image Processing for Authentication and Identification of Persons
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: Sharif University of Technology, Tehran, Iran
+      year: 2021-now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Description 1: The proposal and implementation of a multi-purpose part-based person representation method
+for part-based tracking of persons in team sport videos.
+        - Description 2: The proposal and implementation of a pair-wise distillation approach by transferring inter-class
+similarities for semantic segmentation.
+
+    - title: Research Assistant
+      institution: Sharif University of Technology, Tehran, Iran
+      year: 2023-now
       description:
-        - Description 1.
-        - Description 2.
+        - Description 1: An Experimental Survey on Farsi Transformer-based Retrival Question Answering.
+        - Description 2: Working on NLP techniques tailored for the linguistic variations in the Kurdish language family,
+providing linguistic resources, multilingual models, and NLP pipelines to address essential tasks and facilitate
+cross-dialect communication within the Kurdish-speaking community.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Internship
+          institution: UCLouvain, Louvain-la-Neuve, Belgium
+          year: Summer 2022
+          description:
+            - Description: The development and implementation of a multi-object tracking solution exploiting CNN-based
+re-identification descriptors.
+            
+    - title: Undergraduate Research Assistant
+          institution: Isfahan University of Technology, Isfahan, Iran
+          year: 2021
+          description:
+            - Description: The development on an open-source iris recognition system and making improvements in
+segmentation and feature encoding stages.
+    
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/PbTrack/pb-track">PB-Track</a>
+      year: 2023
+      description: A modulable end-to-end tracking framework research and development oriented.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2017
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - Ranked in top 1% in the National Entrance Exam for B.Sc. of Iran, among more than 148,000 students in the field of Mathematics and Physics
 
-- title: Academic Interests
+    - year: 2021
+      items: 
+        - Ranked within the top 10 undergraduate students in Bachelor
+        - Ranked 10th (top 0.05%) in the National Entrance Exam for M.Sc. degree in Computer Engineering
+        - Ranked 5th at National Computer Engineering Olympiad
+
+    - year: 2023
+      items: 
+        - Participating as a part of organizer team of SoccerNet 2023 Challenges
+        - Participating as reviewer in the peer review process for AUT Journal of Electrical Engineering
+
+
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Visual Recognition
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Multi-Object Tracking
+        - Person Re-Identification
+        - Semantic Segmentation
+        - Video Understanding
+        - Team Sport Video Analysis
+        
+    - title: Deep Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Knowledge Distillation
+        - Compacting Deep Networks
+        - Self-supervised Learning
+        - Adverserial Attack and Defence
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Playing/Watching Football, Playing Guitar, Climbing.
