@@ -70,7 +70,7 @@
 
     - year: 2021
       items: 
-        - Ranked within the top 10 undergraduate students in Bachelor
+        - Ranked 7th among undergraduate students in Bachelor
         - Ranked 10th (top 0.05%) in the National Entrance Exam for M.Sc. degree in Computer Engineering
         - Ranked 5th at National Computer Engineering Olympiad
 
@@ -83,7 +83,7 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Visual Recognition
+    - title: Computer Vision
       items: 
         - Multi-Object Tracking
         - Person Re-Identification
