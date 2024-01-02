@@ -3,6 +3,22 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{eslami2024rethinking,
+      title={Rethinking RAFT for Efficient Optical Flow}, 
+      author={Navid Eslami and Farnoosh Arefi and Amir M. Mansourian and Shohreh Kasaei},
+      year={2024},
+      eprint={2401.00833},
+      archivePrefix={arXiv},
+      pdf={Ef-RAFT.pdf},
+      preview={Ef-RAFT.png},
+      bibtex_show={true},
+      abbr={Arxiv},
+      code={https://github.com/n3slami/Ef-RAFT},
+      abstract={Despite significant progress in deep learning-based optical flow methods, accurately estimating large displacements and repetitive patterns remains a challenge. The limitations of local features and similarity search patterns used in these algorithms contribute to this issue. Additionally, some existing methods suffer from slow runtime and excessive graphic memory consumption. To address these problems, this paper proposes a novel approach based on the RAFT framework. The proposed Attention-based Feature Localization (AFL) approach incorporates the attention mechanism to handle global feature extraction and address repetitive patterns. It introduces an operator for matching pixels with corresponding counterparts in the second frame and assigning accurate flow values. Furthermore, an Amorphous Lookup Operator (ALO) is proposed to enhance convergence speed and improve RAFTs ability to handle large displacements by reducing data redundancy in its search operator and expanding the search space for similarity extraction. The proposed method, Efficient RAFT (Ef-RAFT),achieves significant improvements of 10% on the Sintel dataset and 5% on the KITTI dataset over RAFT. Remarkably, these enhancements are attained with a modest 33% reduction in speed and a mere 13% increase in memory usage.}
+      primaryClass={cs.CV}
+}
+
+
 @inproceedings{mansourian2023multi,
   bibtex_show={true},
   abbr={ACM MM},
