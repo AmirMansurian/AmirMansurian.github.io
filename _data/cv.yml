@@ -57,9 +57,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/PbTrack/pb-track">PB-Track</a>
-      year: 2023
-      description: A modulable end-to-end tracking framework research and development oriented.
+    - title: <a href="https://github.com/TrackingLaboratory/tracklab">TrackLab</a>
+      year: 2024
+      description: A modular end-to-end tracking framework for research and development.
 
 - title: Honors and Awards
   type: time_table
