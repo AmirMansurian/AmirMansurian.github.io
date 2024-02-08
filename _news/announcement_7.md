@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href='https://github.com/TrackingLaboratory/tracklab'>TrackLab</a> is released.
+<a href='https://github.com/SoccerNet/sn-gamestate'>SoccerNet Game State Challenge</a> is released. Also, check <a href='https://github.com/TrackingLaboratory/tracklab'>TrackLab</a>.
