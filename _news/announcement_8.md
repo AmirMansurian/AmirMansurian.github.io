@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href='https://arxiv.org/abs/2401.00833'>Rethinking RAFT for Efficient Optical Flow</a> was presented at MVIP 2024(Best Paper Award).
+Our paper <a href='https://arxiv.org/abs/2401.00833'>Rethinking RAFT for Efficient Optical Flow</a> was presented at MVIP 2024 (Best Paper Award).
