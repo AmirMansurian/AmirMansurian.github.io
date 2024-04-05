@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href='https://github.com/SoccerNet/sn-gamestate'>End-to-End Athlete Tracking and Identification on a Minimap</a> is accepted at CVsports workshop, CVPR 2024.
+Our paper <a href='https://github.com/SoccerNet/sn-gamestate'>SoccerNet Game State Reconstruction: End-to-End Athlete Tracking and Identification on a Minimap</a> is accepted at CVsports workshop, CVPR 2024.
