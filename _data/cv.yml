@@ -29,17 +29,17 @@
   contents:
     - title: Research Assistant
       institution: Sharif University of Technology, Tehran, Iran
-      year: 2021-now
+      year: 2021-2024
       description:
         - Description 1. The proposal and implementation of a multi-purpose part-based person representation method for part-based tracking of persons in team sport videos.
         - Description 2. The proposal and implementation of a pair-wise distillation approach by transferring inter-class similarities for semantic segmentation.
 
-    #- title: Research Assistant
-      #institution: Sharif University of Technology, Tehran, Iran
-      #year: 2023-now
-      #description:
-       # - Description 1. An Experimental Survey on Farsi Transformer-based Retrival Question Answering.
-        #- Description 2. Working on NLP techniques tailored for the linguistic variations in the Kurdish language family, providing linguistic resources, multilingual models, and NLP pipelines to address essential tasks and facilitate cross-dialect communication within the Kurdish-speaking community.
+    - title: Research Assistant
+      institution: Sharif University of Technology, Tehran, Iran
+      year: 2023-2024
+      description:
+        - Description 1. An Experimental Survey on Farsi Transformer-based Retrival Question Answering.
+        - Description 2. Working on NLP techniques tailored for the linguistic variations in the Kurdish language family, providing linguistic resources, multilingual models, and NLP pipelines to address essential tasks and facilitate cross-dialect communication within the Kurdish-speaking community.
 
     - title: Research Internship
       institution: UCLouvain, Louvain-la-Neuve, Belgium
@@ -91,18 +91,21 @@
   contents:
     - title: Computer Vision
       items: 
-        - Multi-Object Tracking
-        - Person Re-Identification
-        - Semantic Segmentation
-        - Video Understanding
-        - Team Sport Video Analysis
+        - Computer Vision
+        - Image/Video Processing
+        - Machine Learning
+        #- Multi-Object Tracking
+        #- Person Re-Identification
+        #- Semantic Segmentation
+        #- Video Understanding
+        #- Team Sport Video Analysis
         
-    - title: Deep Learning
-      items:
-        - Knowledge Distillation
-        - Compacting Deep Networks
-        - Self-supervised Learning
-        - Adverserial Attack and Defence
+    #- title: Deep Learning
+      #items:
+        #- Knowledge Distillation
+        #- Compacting Deep Networks
+        #- Self-supervised Learning
+        #- Adverserial Attack and Defence
 
 - title: Other Interests
   type: list
