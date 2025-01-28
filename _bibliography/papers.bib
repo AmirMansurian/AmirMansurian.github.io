@@ -3,6 +3,20 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{mansourian2025aicsd,
+  bibtex_show={true},
+  abbr={MTAP},
+  preview={AICSD.jpg},
+  title={AICSD: Adaptive Inter-Class Similarity Distillation for Semantic Segmentation},
+  author={Mansourian, Amir M and Ahmadi, Rozhan and Kasaei, Shohreh},
+  abstract={In recent years, deep neural networks have achieved remarkable accuracy in computer vision tasks. With inference time being a crucial factor, particularly in dense prediction tasks such as semantic segmentation, knowledge distillation has emerged as a successful technique for improving the accuracy of lightweight student networks. The existing methods often neglect the information in channels and among different classes. To overcome these limitations, this paper proposes a novel method called Inter-Class Similarity Distillation (ICSD) for the purpose of knowledge distillation. The proposed method transfers high-order relations from the teacher network to the student network by independently computing intra-class distributions for each class from network outputs. This is followed by calculating inter-class similarity matrices for distillation using KL divergence between distributions of each pair of classes. To further improve the effectiveness of the proposed method, an Adaptive Loss Weighting (ALW) training strategy is proposed. Unlike existing methods, the ALW strategy gradually reduces the influence of the teacher network towards the end of the training process to account for errors in teacher’s predictions. Extensive experiments conducted on two well-known datasets for semantic segmentation, Cityscapes, Pascal VOC 2012, and COCO, validate the effectiveness of the proposed method in terms of mIoU and pixel accuracy. The proposed method outperforms most of existing knowledge distillation methods as demonstrated by both quantitative and qualitative evaluations.},
+  journal={Multimedia Tools and Applications},
+  code={https://github.com/AmirMansurian/AICSD},
+  pdf={AICSD.pdf},
+  year={2025}
+}
+
+
 @article{arefi2024eigen,
   title={Eigen-Cluster VIS: Improving Weakly-supervised Video Instance Segmentation by Leveraging Spatio-temporal Consistency}, 
   author={Arefi, Farnoosh and Mansourian, Amir M and Kasaei, Shohreh},
@@ -94,18 +108,6 @@
   journal={Sports Engineering},
   code={https://github.com/SoccerNet/},
   pdf={SoccerNet.pdf},
-  year={2023}
-}
-
-@article{mansourian2023aicsd,
-  bibtex_show={true},
-  abbr={ArXiv},
-  title={AICSD: Adaptive Inter-Class Similarity Distillation for Semantic Segmentation},
-  author={Mansourian, Amir M and Ahmadi, Rozhan and Kasaei, Shohreh},
-  abstract={In recent years, deep neural networks have achievedremarkable accuracy in computer vision tasks. With inferencetime being a crucial factor, particularly in dense predictiontasks such as semantic segmentation, knowledge distillation hasemerged as a successful technique for improving the accuracyof lightweight student networks. The existing methods oftenneglect the information in channels and among different classes.To overcome these limitations, this paper proposes a novelmethod called Inter-Class Similarity Distillation (ICSD) for thepurpose of knowledge distillation. The proposed method transfershigh-order relations from the teacher network to the studentnetwork by independently computing intra-class distributionsfor each class from network outputs. This is followed bycalculating inter-class similarity matrices for distillation usingKL divergence between distributions of each pair of classes. Tofurther improve the effectiveness of the proposed method, anAdaptive Loss Weighting (ALW) training strategy is proposed.Unlike existing methods, the ALW strategy gradually reducesthe influence of the teacher network towards the end of trainingprocess to account for errors in teacher’s predictions. Extensiveexperiments conducted on two well-known datasets for semanticsegmentation, Cityscapes and Pascal VOC 2012, validate theeffectiveness of the proposed method in terms of mIoU andpixel accuracy. The proposed method outperforms most ofexisting knowledge distillation methods as demonstrated by bothquantitative and qualitative evaluations.},
-  journal={arXiv preprint arXiv:2308.04243},
-  code={https://github.com/AmirMansurian/AICSD},
-  pdf={AICSD.pdf},
   year={2023}
 }
 
