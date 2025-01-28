@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href='https://arxiv.org/abs/2402.02474'>Deep Spectral Improvement for Unsupervised Image Instance Segmentation</a> is accepted at PlosOne.
+Our paper <a href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0307432'>Deep Spectral Improvement for Unsupervised Image Instance Segmentation</a> is accepted at PlosOne.
