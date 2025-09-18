@@ -3,7 +3,20 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{veisi2025context,
+@article{mansourian2025comprehensive,
+  title={A Comprehensive Survey on Knowledge Distillation}, 
+  author={Mansourian, Amir M and Ahmadi, Rozhan and Ghafouri, Masoud and Babaei, Amir Mohammad and Golezani, Elaheh Badali and Ghamchi, Zeynab Yasamani and Ramezanian, Vida and Taherian, Alireza and Dinashi, Kimia and Miri, Amirali and Kasaei, Shohreh},  year={2025},
+  pdf={kd_survey.pdf},
+  bibtex_show={true},
+  abbr={Arxiv},
+  code={https://github.com/IPL-sharif/KD_Survey},
+  abstract={Deep Neural Networks (DNNs) have achieved notable performance in the fields of computer vision and natural language processing with various applications in both academia and industry. However, with recent advancements in DNNs and transformer models with a tremendous number of parameters, deploying these large models on edge devices causes serious issues such as high runtime and memory consumption. This is especially concerning with the recent large-scale foundation models, Vision-Language Models (VLMs), and Large Language Models (LLMs). Knowledge Distillation (KD) is one of the prominent techniques proposed to address the aforementioned problems using a teacher-student architecture. More specifically, a lightweight student model is trained using additional knowledge from a cumbersome teacher model. In this work, a comprehensive survey of knowledge distillation methods is proposed. This includes reviewing KD from different aspects: distillation sources, distillation schemes, distillation algorithms, distillation by modalities, applications of distillation, and comparison among existing methods. In contrast to most existing surveys, which are either outdated or simply update former surveys, this work proposes a comprehensive survey with a new point of view and representation structure that categorizes and investigates the most recent methods in knowledge distillation. This survey considers various critically important subcategories, including KD for diffusion models, 3D inputs, foundational models, transformers, and LLMs. Furthermore, existing challenges in KD and possible future research directions are discussed.},
+  journal={Transactions on Machine Learning Research},
+  preview={survey.png}
+}
+
+
+@article{mansourian2025context,
   title={Context-aware Biases for Length Extrapolation}, 
   author={Mansourian*, Amir M and Veisi*, Ali and Amirzadeh*, Hamidreza},
   year={2025},
@@ -14,17 +27,6 @@
   abstract={Transformers often struggle to generalize to longer sequences than those seen during training—a limitation known as length extrapolation. Most existing Relative Positional Encoding (RPE) methods attempt to address this by introducing either fixed linear biases or globally learned biases, which lack the capacity to adapt to different input contexts. In this work, we propose an additive RPE, Context-Aware Biases for Length Extrapolation (CABLE), a method that learns token-specific, contextaware biases for each attention head in transformers. By dynamically adjusting positional biases based on the input sequence, CABLE overcomes the rigidity of fixed RPEs. When evaluated on sequences longer than originally trained with, GPT-2 Medium (334M parameters) with CABLE achieves lower perplexity than counterparts using other widely adopted positional encoding methods. Additionally, by applying CABLE to the BERT base model we improved performance in long-context retrieval tasks. Our method significantly enhances the extrapolation performance of existing RPE methods tested on the FineWeb-Edu10B and WikiText-103 datasets.},
   journal={Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   preview={cable.png}
-}
-
-@article{mansourian2025comprehensive,
-  title={A Comprehensive Survey on Knowledge Distillation}, 
-  author={Mansourian, Amir M and Ahmadi, Rozhan and Ghafouri, Masoud and Babaei, Amir Mohammad and Golezani, Elaheh Badali and Ghamchi, Zeynab Yasamani and Ramezanian, Vida and Taherian, Alireza and Dinashi, Kimia and Miri, Amirali and Kasaei, Shohreh},  year={2025},
-  pdf={kd_survey.pdf},
-  bibtex_show={true},
-  abbr={Arxiv},
-  code={https://github.com/IPL-sharif/KD_Survey},
-  abstract={Deep Neural Networks (DNNs) have achieved notable performance in the fields of computer vision and natural language processing with various applications in both academia and industry. However, with recent advancements in DNNs and transformer models with a tremendous number of parameters, deploying these large models on edge devices causes serious issues such as high runtime and memory consumption. This is especially concerning with the recent large-scale foundation models, Vision-Language Models (VLMs), and Large Language Models (LLMs). Knowledge Distillation (KD) is one of the prominent techniques proposed to address the aforementioned problems using a teacher-student architecture. More specifically, a lightweight student model is trained using additional knowledge from a cumbersome teacher model. In this work, a comprehensive survey of knowledge distillation methods is proposed. This includes reviewing KD from different aspects: distillation sources, distillation schemes, distillation algorithms, distillation by modalities, applications of distillation, and comparison among existing methods. In contrast to most existing surveys, which are either outdated or simply update former surveys, this work proposes a comprehensive survey with a new point of view and representation structure that categorizes and investigates the most recent methods in knowledge distillation. This survey considers various critically important subcategories, including KD for diffusion models, 3D inputs, foundational models, transformers, and LLMs. Furthermore, existing challenges in KD and possible future research directions are discussed.},
-  journal={arXiv preprint arXiv:2503.12067}
 }
 
 @article{arefi2025eigen,
