@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: amir.jpg
+  image: Amir2.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Image Processing Lab</p>
