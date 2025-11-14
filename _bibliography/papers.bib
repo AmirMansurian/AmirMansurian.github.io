@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{mansourian2025enriching,
+  title={Enriching Knowledge Distillation with Cross-Modal Teacher Fusion}, 
+  author={Mansourian, Amir M and Babaei, Amir Mohammad and Kasaei, Shohreh},
+  year={2025},
+  pdf={RichKD.pdf},
+  bibtex_show={true},
+  abbr={Arxiv},
+  code={},
+  abstract={Multi-teacher knowledge distillation (KD), a more effective technique than traditional single-teacher methods, transfers knowledge from expert teachers to a compact student model using logit or feature matching. However, most existing approaches lack knowledge diversity, as they rely solely on unimodal visual information, overlooking the potential of cross-modal representations. In this work, we explore the use of CLIP's vision-language knowledge as a complementary source of supervision for KD, an area that remains largely underexplored. We propose a simple yet effective framework that fuses the logits and features of a conventional teacher with those from CLIP. By incorporating CLIP's multi-prompt textual guidance, the fused supervision captures both dataset-specific and semantically enriched visual cues. Beyond accuracy, analysis shows that the fused teacher yields more confident and reliable predictions, significantly increasing confident-correct cases while reducing confidently wrong ones. Moreover, fusion with CLIP refines the entire logit distribution, producing semantically meaningful probabilities for non-target classes, thereby improving inter-class consistency and distillation quality. Despite its simplicity, the proposed method, Enriching Knowledge Distillation (RichKD), consistently outperforms most existing baselines across multiple benchmarks and exhibits stronger robustness under distribution shifts and input corruptions.},
+  journal={arXiv preprint}
+}
+
 @article{mansourian2025no,
   title={No Concept Left Behind: Test-Time Optimization for Compositional Text-to-Image Generation}, 
   author={Mansourian*, Amir M and Sameti*, Mohammad Hossein and Marioriyad, Arash and Fadaee Oshyani, Soheil and Rohban, Mohammad Hossein and Soleymani Baghshah, Mahdieh},
