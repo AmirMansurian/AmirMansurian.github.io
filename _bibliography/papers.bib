@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{mansourian2026concept,
+  title={No Concept Left Behind: Test-Time Optimization for Compositional Text-to-Image Generation}, 
+  author={Mansourian*, Amir M and Sameti*, Mohammad Hossein and Marioriyad, Arash and Fadaee Oshyani, Soheil and Rohban, Mohammad Hossein and Soleymani Baghshah, Mahdieh},
+  year={2026},
+  pdf={NoConceptLeftBehind.pdf},
+  bibtex_show={true},
+  abbr={ICASSP},
+  code={https://github.com/AmirMansurian/NoConceptLeftBehind},
+  abstract={Despite recent advances in text-to-image (T2I) models, they often fail to faithfully render all elements of complex prompts, frequently omitting or misrepresenting specific objects and attributes. Test-time optimization has emerged as a promising approach to address this limitation by refining generation without the need for retraining. In this paper, we propose a fine-grained test-time optimization framework that enhances compositional faithfulness in T2I generation. Unlike most of prior approaches that rely solely on a global image–text similarity score, our method decomposes the input prompt into semantic concepts and evaluates alignment at both the global and concept levels. A fine-grained variant of CLIP is used to compute concept-level correspondence, producing detailed feedback on missing or inaccurate concepts. This feedback is fed into an iterative prompt refinement loop, enabling the large language model to propose improved prompts. Experiments on DrawBench and CompBench prompts demonstrate that our method significantly improves concept coverage and human-judged faithfulness over both standard test-time optimization and the base T2I model.},
+  journal={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}
+}
+
 
 @article{mansourian2026attention,
   bibtex_show={true},
@@ -31,17 +43,6 @@
   journal={arXiv preprint}
 }
 
-@article{mansourian2025no,
-  title={No Concept Left Behind: Test-Time Optimization for Compositional Text-to-Image Generation}, 
-  author={Mansourian*, Amir M and Sameti*, Mohammad Hossein and Marioriyad, Arash and Fadaee Oshyani, Soheil and Rohban, Mohammad Hossein and Soleymani Baghshah, Mahdieh},
-  year={2025},
-  pdf={NoConceptLeftBehind.pdf},
-  bibtex_show={true},
-  abbr={Arxiv},
-  code={https://github.com/AmirMansurian/NoConceptLeftBehind},
-  abstract={Despite recent advances in text-to-image (T2I) models, they often fail to faithfully render all elements of complex prompts, frequently omitting or misrepresenting specific objects and attributes. Test-time optimization has emerged as a promising approach to address this limitation by refining generation without the need for retraining. In this paper, we propose a fine-grained test-time optimization framework that enhances compositional faithfulness in T2I generation. Unlike most of prior approaches that rely solely on a global image–text similarity score, our method decomposes the input prompt into semantic concepts and evaluates alignment at both the global and concept levels. A fine-grained variant of CLIP is used to compute concept-level correspondence, producing detailed feedback on missing or inaccurate concepts. This feedback is fed into an iterative prompt refinement loop, enabling the large language model to propose improved prompts. Experiments on DrawBench and CompBench prompts demonstrate that our method significantly improves concept coverage and human-judged faithfulness over both standard test-time optimization and the base T2I model.},
-  journal={arXiv preprint}
-}
 
 @article{mansourian2025comprehensive,
   title={A Comprehensive Survey on Knowledge Distillation}, 
