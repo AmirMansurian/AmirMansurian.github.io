@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href='https://arxiv.org/abs/2509.23457'>No Concept Left Behind: Test-Time Optimization for Compositional Text-to-Image Generation</a> has been accepted at ICASSP 2026.
+Our paper <a href='https://arxiv.org/abs/2509.23457'>No Concept Left Behind: Test-Time Optimization for Compositional Text-to-Image Generation</a> has been accepted at **ICASSP** 2026.
