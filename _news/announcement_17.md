@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href='https://arxiv.org/abs/2403.05451'>Attention as Geometric Transformation: Revisiting Feature Distillation for Semantic Segmentation</a> has been accepted at WACVW 2026.
+Our paper <a href='https://arxiv.org/abs/2403.05451'>Attention as Geometric Transformation: Revisiting Feature Distillation for Semantic Segmentation</a> has been accepted at LENS workshop, **WACV** 2026.
