@@ -24,4 +24,4 @@ I am a Master's student in the <a href='https://ce.sharif.edu/'>Computer Enginee
 In the summer of 2022, I was a Research Intern at <a href='ispgroup.gitlab.io'>Image and Signal Processing Group</a>, <a href='https://uclouvain.be/en/index.html'>UCLouvain</a>, under the supervision of <a href='https://scholar.google.com/citations?user=xb3Zc3cAAAAJ&hl=en'>Prof. De Vleeschouwer</a>. Before joining SUT, I completed my Bachelor's in Computer Engineering at <a href='https://english.iut.ac.ir/'>Isfahan University of Technology (IUT)</a>. I was an undergraduate Research Assistant in the Computer Vision Lab under the supervision of <a href='https://scholar.google.com/citations?hl=en&user=mZGNr2QAAAAJ'>Dr. Karimi</a>.
 
 
-My research interest include: Computer Vision, Image/Video Processing, and Machine Learning Appliacations.
+My research interest include: Sport Video Analysis, Model Compression via Knowledge Distillation, and Vision-Language Models for Document Analysis.
