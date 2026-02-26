@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href='https://arxiv.org/abs/2511.09286'>Enriching Knowledge Distillation with Cross-Modal Teacher Fusion</a> has been accepted at CVPR Findings 2026.
+Our paper <a href='https://arxiv.org/abs/2511.09286'>Enriching Knowledge Distillation with Cross-Modal Teacher Fusion</a> has been accepted at **CVPR** Findings 2026.
