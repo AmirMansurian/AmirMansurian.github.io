@@ -9,7 +9,7 @@ profile:
   image: Amir2.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Visual Information Laboratories</p>
+    <p>Visual Information Labs</p>
     <p>University of bristol</p>
     <p>Bristol, UK</p>
 
