@@ -9,7 +9,8 @@ profile:
   image: Amir2.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>MaVi@University of bristol</p>
+    <p>Visual Information Laboratories</p>
+    <p>University of bristol</p>
     <p>Bristol, UK</p>
 
 news: true  # includes a list of news items
