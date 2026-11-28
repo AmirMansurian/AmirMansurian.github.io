@@ -11,6 +11,10 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D
+      institution: University of Bristol, Bristol, UK
+      year:2026-Present
+  
     - title: M.Sc.
       institution: Sharif University of Technology, Tehran, Iran
       year: 2021-2023
@@ -30,7 +34,7 @@
 
     - title: Research and Develop Position
       institution: AlgoNet Research, Tehran, Iran
-      year: 2024-Present
+      year: 2024-2026
       description:
         - Description 1. Developement of a novel relative positional encoding method for length extrapolation of LLMs in next token prediction task by learning context-aware biases. 
         - Description 2. Development of a comprehensive text detection and recognition system using multimodal VLMs for Persian document analysis.
@@ -84,21 +88,18 @@
   contents:
     - title: Computer Vision
       items: 
-        - Computer Vision
-        - Image/Video Processing
-        - Machine Learning
-        #- Multi-Object Tracking
-        #- Person Re-Identification
-        #- Semantic Segmentation
-        #- Video Understanding
-        #- Team Sport Video Analysis
+        - Multi-Object Tracking
+        - Person Re-Identification
+        - Semantic Segmentation
+        - Team Sport Video Analysis
+        - Text Detection/Recognition
         
-    #- title: Deep Learning
-      #items:
-        #- Knowledge Distillation
-        #- Compacting Deep Networks
-        #- Self-supervised Learning
-        #- Adverserial Attack and Defence
+    - title: Deep Learning
+      items:
+        - Knowledge Distillation
+        - Compacting Deep Networks
+        - Self-supervised Learning
+        - Test-time Optimization
 
 - title: Other Interests
   type: list
